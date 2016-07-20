@@ -502,7 +502,7 @@ def get_args():
     parser.set_defaults(DEBUG=True)
     parser.set_defaults(username='iphone.sm.backup@gmail.com')
     parser.set_defaults(password='Zergus999')
-    parser.set_defaults(location='Kiev Dragomanova str 40')
+    parser.set_defaults(location='Kiev')
     parser.set_defaults(step_limit='1500')
     return parser.parse_args()
 
